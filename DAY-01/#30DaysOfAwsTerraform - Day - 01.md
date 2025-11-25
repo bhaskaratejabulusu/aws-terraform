@@ -14,13 +14,13 @@ Terraform - universal and most popular in the tech industry
 
 Pulumi - universal
 
-Cloud native 	
+Cloud native
 
-&nbsp;		Azure - ARM, Bicep
+ 		Azure - ARM, Bicep
 
-&nbsp;		AWS - cloud formation, CDK
+ 		AWS - cloud formation, CDK
 
-&nbsp;		GCP - Deployment manager, config controller
+ 		GCP - Deployment manager, config controller
 
 
 
@@ -28,17 +28,17 @@ Cloud native
 
 To create a simple 3 tier architecture \[web, app, db], we need to create everything manually using GUI and it takes around 2+ hours to provision the resources for the application.
 
-Now, for an enterprise application, it becomes more complex and as the complexity increases, the provisioning of resources takes more time to provision the resources. 
+Now, for an enterprise application, it becomes more complex and as the complexity increases, the provisioning of resources takes more time to provision the resources.
 
 and updating, deleting the resources also takes time.
 
-To avoid this we use IAC (infrastructure as code) 
+To avoid this we use IAC (infrastructure as code)
 
 
 
 by manually provisioning the resources we can face errors such as
 
-&nbsp;	Time, people, cost, Insecure, human errors, 'It works on my machine'
+ 	Time, people, cost, Insecure, human errors, 'It works on my machine'
 
 
 
@@ -46,7 +46,7 @@ by manually provisioning the resources we can face errors such as
 
 ### How terraform helps ?
 
-It automates the resource provisioning which saves time, cost and also better security compared to manual provisioning. 
+It automates the resource provisioning which saves time, cost and also better security compared to manual provisioning.
 
 Easily maintainable as we can update resources by just configuring the code
 
@@ -54,15 +54,15 @@ Easily maintainable as we can update resources by just configuring the code
 
 Pros:
 
-&nbsp;	Save time
+ 	Save time
 
-&nbsp;	Consistent 
+ 	Consistent
 
-&nbsp;	Write once, Deploy many times
+ 	Write once, Deploy many times
 
-&nbsp;	Track changes -- version control -- No Blame Game
+ 	Track changes -- version control -- No Blame Game
 
-&nbsp;	life easy
+ 	life easy
 
 
 
@@ -83,15 +83,15 @@ HCL is human and machine readable language
 3. now it automates using CICD pipeline or use CLI to run the terraform file(s)
 4. usually we run 4 commands to automate the resource provisioning using terraform
 
-* &nbsp;	terraform init - initializes the infrastructure
-* &nbsp;	terraform validate - to check any syntax errors and validates them
-* &nbsp;	terraform plan - gives DRY run and provides a preview the resources that are going to be provisioned
-* &nbsp;	terraform apply - it now actually runs and provision the resources by internally calling/interacting AWS API's
-* &nbsp;	terraform destroy - this command is used to delete the infrastructure
+*  	terraform init - initializes the infrastructure
+*  	terraform validate - to check any syntax errors and validates them
+*  	terraform plan - gives DRY run and provides a preview the resources that are going to be provisioned
+*  	terraform apply - it now actually runs and provision the resources by internally calling/interacting AWS API's
+*  	terraform destroy - this command is used to delete the infrastructure
 
 
 
 
 
-we can install terraform by using running some commands depending on the operating system.
+we can install terraform by using running some commands depending on the operating system. 
 
