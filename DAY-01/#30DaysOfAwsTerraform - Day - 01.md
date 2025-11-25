@@ -85,7 +85,7 @@ HCL is human and machine readable language
 
 * &nbsp;	terraform init - initializes the infrastructure
 * &nbsp;	terraform validate - to check any syntax errors and validates them
-* &nbsp;	terraform plan - gives DRY run and provides a plan showing the resources that are going to be provisioned
+* &nbsp;	terraform plan - gives DRY run and provides a preview the resources that are going to be provisioned
 * &nbsp;	terraform apply - it now actually runs and provision the resources by internally calling/interacting AWS API's
 * &nbsp;	terraform destroy - this command is used to delete the infrastructure
 
