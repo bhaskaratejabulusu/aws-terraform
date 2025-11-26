@@ -5,4 +5,4 @@ resource "aws_s3_bucket" "example" {
     Name        = "My bucket Modified"
     Environment = "Dev"
   }
-}
+} 
