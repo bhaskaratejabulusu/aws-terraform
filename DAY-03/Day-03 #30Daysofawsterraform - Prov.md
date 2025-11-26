@@ -26,15 +26,15 @@ For a resource to be provisioned, syntax is:
 
 resource "resource\_type" "variable\_name"{
 
-&nbsp;     bucket = "unique\_bucket\_name"
+      bucket = "unique\_bucket\_name"
 
-&nbsp;     tags = {
+      tags = {
 
-&nbsp;         Name = "My bucket"
+          Name = "My bucket"
 
-&nbsp;         Environment = "Dev"
+          Environment = "Dev"
 
-&nbsp;     }
+      }
 
 }
 
@@ -46,21 +46,21 @@ resource "resource\_type" "variable\_name"{
 
 1\. tf init
 
-2\. tf plan --> shows the blueprint/summary about the resources that are                   going to be created/modified/deleted
+2\. tf plan --> shows the blueprint/summary about the resources that are going to be created/modified/deleted
 
 3\. tf validate --> this validates the script
 
-4\. tf apply --auto-approve --> this doesn't wait for the consent in the        CLI
+4\. tf apply --auto-approve --> this doesn't wait for the consent in the CLI
 
 
 
-After running this commands the S3 bucket will be created in the AWS 
+After running this commands the S3 bucket will be created in the AWS
 
-&nbsp;
+ 
 
 ##### To delete the S3 bucket run the command
 
-6\. tf destroy --auto-approve --> this destroys the resources 
+6\. tf destroy --auto-approve --> this destroys the resources
 
 
 
@@ -75,10 +75,4 @@ This is how we will automate the creation and deletion of S3 bucket in AWS
 Resources
 
 Video : https://www.youtube.com/watch?v=09HQ\_R1P7Lw
-
-
-
-
-
-
 
