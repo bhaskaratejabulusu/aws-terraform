@@ -1,8 +1,9 @@
-**File Structure**
+## File Structure
 Keeping everything such as variables, locals, providers, backend, outputs, resources related code in one file isn't a best practice and becomes an overhead as infrastructure grows and unmanageable.
 
 There is a standard structure that needs to be followed by every DevOps engineer which is essential for scalability and maintainability and one of the recommended project structure is:
 
+```
 project-root/
 ├── backend.tf           # Backend configuration
 ├── provider.tf          # Provider configurations
@@ -17,6 +18,7 @@ project-root/
 ├── outputs.tf          # Output definitions
 ├── terraform.tfvars   # Variable values
 └── README.md           # Documentation
+```
 
 **Terraform File Loading**
 - Terraform loads all the files with .tf extension in the current directory
