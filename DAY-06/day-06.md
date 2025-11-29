@@ -1,7 +1,7 @@
 **File Structure**
-Keeping everything such as variables, locals, providers, backend, outputs, resources related code in one file isn't a best practice and becomes an overhead as infrastructure grows
+Keeping everything such as variables, locals, providers, backend, outputs, resources related code in one file isn't a best practice and becomes an overhead as infrastructure grows and unmanageable.
 
-There is a standard structure that needs to be followed by every DevOps engineer and one of the recommended project structure is:
+There is a standard structure that needs to be followed by every DevOps engineer which is essential for scalability and maintainability and one of the recommended project structure is:
 
 project-root/
 ├── backend.tf           # Backend configuration
@@ -26,3 +26,19 @@ project-root/
 
 - The above file structure is just an example and recommended by Hashicorp  and this varies from organization and their use case
 - Another approach is to separate the files based on the environments or based on the resources as well
+
+**File organization principles**
+- Separation of concerns
+- Logical Grouping
+- Consistent naming
+- Modular Approach
+- Documentation
+
+**Best practices**
+- Consistent naming of file names
+- Split the files based on functionality
+- Size management - keep files manageable (<500 lines)
+- Documentation
+- Logical Grouping
+
+A well organized structure not only improves readability but also streamlines collaboration and long term maintenance
