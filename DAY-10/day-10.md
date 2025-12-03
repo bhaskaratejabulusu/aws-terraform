@@ -3,6 +3,10 @@
 **Conditional Expressions:**
 Conditional expressions in Terraform allow you to choose between two values based on a condition. The syntax is `condition ? true_value : false_value`. This is useful for setting resource attributes based on variable values or other conditions.
 
+- chose instances based on the environment (dev/prod)
+- enable monitoring based on the configurations
+- select different AMIs based on region
+
 example:
 ```
 // main.tf
