@@ -1,0 +1,30 @@
+output "formatted_project_name" {
+    value = local.formatted_project_name
+
+
+}
+
+output "tags" {
+    value = local.tags
+  
+}
+
+output "formatted_bucket_name" {
+    value = local.formatted_bucket_name
+  
+}
+
+output "port_list" {
+    value = local.port_list
+  
+}
+
+output "sg_rules" {
+    value = local.sg_rules
+  
+}
+
+output "instance_type" {
+    value = local.instance
+  
+}
