@@ -1,0 +1,8 @@
+{
+    "instance_type": "t2.micro",
+    "backup_file_name": "bucket_backup",
+    "credentials": "bby@1223",
+    "username": "bhaskara"
+
+    
+}
