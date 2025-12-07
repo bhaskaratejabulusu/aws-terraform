@@ -14,6 +14,9 @@ data "data_source_type" "data_source_name" {
 }
 ```
 
+**Flow of using Data Sources:**
+![alt text](image.png)
+
 **Filters:**
 Filters are used in data sources to narrow down the results based on specific criteria. They help you to find the exact resource you are looking for by applying conditions just like search queries.
 
