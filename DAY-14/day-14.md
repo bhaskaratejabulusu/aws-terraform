@@ -4,6 +4,10 @@
 
 Deploy a static website using AWS S3 for storage and CloudFront for content delivery.
 
+### Architecture Diagram
+![alt text](architecture-diagram.png)
+
+
 ### Prerequisites
 
 * Basic knowledge of Terraform
@@ -148,7 +152,7 @@ resource "aws_s3_object" "static_files" {
     
 ```
 
-7. **Create Origin Access Identity for CloudFront**
+7. **Create Origin Access Control for CloudFront**
 
 It is an IAM to the resource (example: s3 bucket) where it provides access control to specific origin. 
 OAC is related to cloudfront which blocks direct access to the content in s3 bucket ensuring that all the requests are made through designated cloudfront CDN.
