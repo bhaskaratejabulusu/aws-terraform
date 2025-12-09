@@ -1,7 +1,7 @@
 ### 30DaysOfAwsTerraform - Day - 01: Introduction to Infra as a Code (IAC) and Terraform
 
 ### 
-
+ 
 ### Infra as a Code:
 
 write the code to provision resources (servers, database, vpc etc..)

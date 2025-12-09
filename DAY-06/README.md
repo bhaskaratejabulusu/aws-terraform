@@ -1,3 +1,5 @@
+## #30daysofawsterraform Day 6: Terraform File Structure
+
 ## File Structure
 Keeping everything such as variables, locals, providers, backend, outputs, resources related code in one file isn't a best practice and becomes an overhead as infrastructure grows and unmanageable.
 
