@@ -250,12 +250,12 @@ variable "s3_origin_id" {
 This mini project demonstrated how to deploy a static website using AWS S3 and CloudFront with Terraform. You can further enhance this setup by adding custom domains using Route 53, SSL certificates using AWS Certificate Manager (ACM), and additional security measures as needed.
 
 **Terminal Output:**
-![alt text](image.png)
+![alt text](output-1.png)
 
 
 **Static Website Accessed via CloudFront:**
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](output-2.png)
+![alt text](output-3.png)
 
 
 Congratulations! You have successfully deployed a static website using AWS S3 and CloudFront with Terraform.
